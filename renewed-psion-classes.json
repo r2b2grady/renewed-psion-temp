@@ -1,0 +1,1722 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "devikyn:RenewedPsionic",
+        "abbreviation": "TRPsi",
+        "full": "The Renewed Psionic",
+        "authors": [
+          "/u/devikyn"
+        ],
+        "convertedBy": [
+          "Robert Grady"
+        ],
+        "url": "https://www.reddit.com/r/UnearthedArcana/comments/e73owz/the_renewed_psionic_v3_a_culmination_of_converted/",
+        "version": "1.0.0",
+        "color": "ff00ff"
+      }
+    ]
+  },
+  "class": [
+    {
+      "name": "Psion",
+      "source": "devikyn:RenewedPsionic",
+      "fluff": [
+        {
+          "source": "devikyn:RenewedPsionic",
+          "entries": [
+            "A human clad in simple robes walks along a forest path. A gang of goblins emerges from the brush, arrows trained on him, their smiles wide at their good fortune of finding such easy prey for the legion’s slave pens. Their smiles turn to shrieks of terror as the traveler grows to giant size and leaps at them, his staff now a deadly cudgel.",
+            "The militia forms in ranks to prepare for the orcs’ charge. The growling brutes howl their battle cries and surge forward. To their surprise, the human rabble holds its ground and fights with surprising ferocity. Suddenly, mindless fear clings to the orcs’ minds and they, despite facing a far inferior foe, turn and run, never noticing the calm half-elf standing amid the militia and directing its efforts.",
+            "Psionic energy is an artifact created from the power of the mind, or psionics, rather than magic. It is harnessed by psions to create amazing feats. Often colloquially referred to as \"mind mages,\" practictioners of most races draw their powers from their own consciousness. Psionic powers can range from devastating mental attacks that dominate an opponent, to physical ectoplasm constructs and a fate link that can inflict damage linked between individuals.",
+            "Manifesting psionic energy can take a great toll. Innate practitioners grow weary and unfocused if they over-extend themselves, and practitioners of other races can deplete their store of power in short order, rushing to rest and replenish it.",
+            {
+              "entries": [
+                "Although it is not fully known, this gift is a genetically inherited trait. For some, psionics can be innate, as in illithid and drow practitioners. That being the case, it is rare to find a psion in races where psionic powers are not the norm.",
+                "Despite their rarity, a master psion can be quite powerful. Without the need for gestures or spell components, and with abilities that only rely on the power within the psion's mind, a psion can often exploit the element of surprise, and thus often holds an advantage over a magic user."
+              ],
+              "name": "Psychic Heritage",
+              "type": "entries"
+            },
+            {
+              "entries": [
+                "Because psionics creates incredible effects and changes the world in ways similar to magic, psions and other users of psionics may easily be confused for spellcasters. However, psionics does not harness an energy inherent in nature, but rather bends the fabric of reality itself to suit the user's needs. This forceful method brings consequences, and as such, manifestation of psionic power usually leads to a secondary display of unusual effects in the world. These displays may include visual artifacts, auditory stimulus and olfactory senses being emitted. These displays can be difficult to observe, however.",
+                "As an example, if a psion manifests a simple charm, or mind reading power, a low droning sound may be heard. Similarly, a polymorphic manifestation may leave the odor of saffron and ginger."
+              ],
+              "name": "Unnatural Consequences",
+              "type": "entries"
+            },
+            {
+              "entries": [
+                "Although the rigorous path of the psion most commonly appeals to those who seek order and answers in their lives, your motivations are entirely your own. Did you start down this path for the knowledge and power it would bring? Did you have a natural talent that you could never fully master until you stumbled on the legends and teachings of the psions who came before you? Were you training your mind for some other purpose, only to discover that your efforts tapped a wellspring of power you never knew you possessed?",
+                "Some are drawn to the art of the psion because it fits their personality, aptitudes, and ambitions. You may have heard tales of psion sects while engaged in other scholarly pursuits and become intrigued by this mysterious path. You might have been actively learning the techniques of wizardry or some other class, discovering in the process that you carried the rare psionics potential within you.",
+                "Regardless of your background, one thing you almost certainly shared with other psions even before you began your instruction is a strong sense of order and logic. Such a mind set is a must to master the rigid disciplines of the psion.",
+                {
+                  "entries": [
+                    "You can make a psion quickly using these choices. First, put your highest ability score in Intelligence, followed by Constitution. Second, choose the far traveler background."
+                  ],
+                  "name": "Quick Build",
+                  "type": "entries"
+                }
+              ],
+              "name": "Creating a Psion",
+              "type": "entries"
+            },
+            {
+              "name": "Multiclassing",
+              "type": "entries",
+              "entries": [
+                "Multiclassing allows you to gain levels in multiple classes. Doing so lets you mix the abilities of those classes to realize a character concept that might not be reflected in one of the standard class options. Refer to page 163 of the <i>Player's Handbook</i> for the full details of Multiclassing."
+                {
+                  "type": "entries",
+                  "name": "Prerequisites",
+                  "entries": [
+                    "To qualify for a new class, you must meet the ability score prerequisites for both your current class and your new one, as shown in the Multiclassing Prerequisites table. The Psion is added to this table."
+                    {
+                      "type": "table",
+                      "caption": "Multiclassing Proficiencies",
+                      "colStyles": [
+                        "col-3",
+                        "col-9"
+                      ],
+                      "colLabels": [
+                        "Class",
+                        "Ability Score Minimum"
+                      ],
+                      "rows": [
+                        [
+                          "Psion",
+                          "Intelligence 13"
+                        ]
+                      ]
+                    }
+                  ],
+                },
+                {
+                  "name": "Proficiencies",
+                  "type": "entries",
+                  "entries": [
+                    "When you gain a level in a class other than your first, you gain only some of that class's starting proficiencies, as shown in the Multiclassing Proficiencies table.",
+                    {
+                      "type": "table",
+                      "caption": "Multiclassing Proficiencies",
+                      "colStyles": [
+                        "col-3",
+                        "col-9"
+                      ],
+                      "colLabels": [
+                        "Class",
+                        "Proficiencies Gained"
+                      ],
+                      "rows": [
+                        [
+                          "Psion",
+                          "Light armor"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Class Features",
+                  "type": "entries",
+                  "entries": [
+                    "When you gain a new level in a class, you get its features for that level. You gain the starting equipment of your first class only. A few features, however, have additional rules when you're multiclassing: Channel Divinity, Extra Attack, Unarmored Defense, Psionics, and Spellcasting.",
+                    {
+                      "name": "Innate Spellcasting",
+                      "type": "entries",
+                      "entries": [
+                        "Your capacity for psionics depends partly on your combined levels in all your psionic classes and partly on your individual levels in those classes. Once you have the Innate Spellcasting feature from more than one class, use the rules below. If you multiclass but have the Innate Spellcasting feature from only one class, you follow the rules as described in that class.",
+                        "<b><i>Psionic Power.</i></b> You determine your available psionic power by adding together any pools of psionic power that you have. For example, a psion 5/ardent 7 has a total of 18 psionic power.",
+                        "<b><i>Psionic Power Limit.</i></b> The highest amount of psionic power you can sustain at once is determined by adding together all of your levels in the psion class, and a third of your fighter or rogue levels (rounded down) if you have the Ardent or the Soulknife feature. Use this total to determine your psionic power limit by consulting the Multiclass Psionic table.",
+                        {
+                          "type": "table",
+                          "caption": "Multiclass Psionic: Psionic Power Limit",
+                          "colStyles": [
+                            "col-3",
+                            "col-9"
+                          ],
+                          "colLabels": [
+                            "Level",
+                            "Psionic Power Limit"
+                          ],
+                          "rows": [
+                            [
+                              "1st",
+                              "1"
+                            ],
+                            [
+                              "2nd",
+                              "1"
+                            ],
+                            [
+                              "3rd",
+                              "2"
+                            ],
+                            [
+                              "4th",
+                              "2"
+                            ],
+                            [
+                              "5th",
+                              "3"
+                            ],
+                            [
+                              "6th",
+                              "3"
+                            ],
+                            [
+                              "7th",
+                              "4"
+                            ],
+                            [
+                              "8th",
+                              "4"
+                            ],
+                            [
+                              "9th",
+                              "5"
+                            ],
+                            [
+                              "10th",
+                              "5"
+                            ],
+                            [
+                              "11th",
+                              "6"
+                            ],
+                            [
+                              "12th",
+                              "6"
+                            ],
+                            [
+                              "13th",
+                              "7"
+                            ],
+                            [
+                              "14th",
+                              "7"
+                            ],
+                            [
+                              "15th",
+                              "8"
+                            ],
+                            [
+                              "16th",
+                              "8"
+                            ],
+                            [
+                              "17th",
+                              "9"
+                            ],
+                            [
+                              "18th",
+                              "9"
+                            ],
+                            [
+                              "19th",
+                              "9"
+                            ],
+                            [
+                              "20th",
+                              "9"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": [
+        "int",
+        "wis"
+      ],
+      "spellcastingAbility": "int",
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "Talents Known",
+            "Psionic Power",
+            "Psionic Power Limit"
+          ],
+          "rows": [
+            [
+              4,
+              1,
+              1
+            ],
+            [
+              4,
+              2,
+              1
+            ],
+            [
+              4,
+              5,
+              2
+            ],
+            [
+              4,
+              7,
+              2
+            ],
+            [
+              5,
+              10,
+              3
+            ],
+            [
+              5,
+              13,
+              3
+            ],
+            [
+              5,
+              13,
+              4
+            ],
+            [
+              5,
+              17,
+              4
+            ],
+            [
+              5,
+              21,
+              5
+            ],
+            [
+              6,
+              26,
+              5
+            ],
+            [
+              6,
+              26,
+              6
+            ],
+            [
+              6,
+              26,
+              6
+            ],
+            [
+              6,
+              26,
+              7
+            ],
+            [
+              6,
+              26,
+              7
+            ],
+            [
+              6,
+              26,
+              8
+            ],
+            [
+              6,
+              26,
+              8
+            ],
+            [
+              6,
+              26,
+              9
+            ],
+            [
+              6,
+              31,
+              9
+            ],
+            [
+              6,
+              37,
+              9
+            ],
+            [
+              6,
+              44,
+              9
+            ]
+          ]
+        }
+      ],
+      "startingProficiencies": {
+        "armor": [
+          "light"
+        ],
+        "weapons": [
+          "daggers",
+          "darts",
+          "slings",
+          "quarterstaffs",
+          "light crossbows"
+        ],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "athletics",
+                "acrobatics",
+                "sleight of hand",
+                "stealth",
+                "arcana",
+                "history",
+                "investigation",
+                "nature",
+                "religion",
+                "animal handling",
+                "insight",
+                "medicine",
+                "perception",
+                "survival",
+                "deception",
+                "intimidation",
+                "performance",
+                "persuasion"
+              ]
+            }
+          },
+          {
+            "choose": {
+              "from": [
+                "athletics",
+                "acrobatics",
+                "sleight of hand",
+                "stealth",
+                "arcana",
+                "history",
+                "investigation",
+                "nature",
+                "religion",
+                "animal handling",
+                "insight",
+                "medicine",
+                "perception",
+                "survival",
+                "deception",
+                "intimidation",
+                "performance",
+                "persuasion"
+              ]
+            }
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) two daggers or (b) a quarterstaff",
+          "(a) a scholar's pack or (b) an explorer's pack",
+          "Leather armor, a light crossbow and 20 bolts"
+        ],
+        "goldAlternative": "5d4 x 10"
+      },
+      "classFeatures": [
+        [
+          {
+            "name": "Innate Spellcasting",
+            "entries": [
+              "As you conjure and shape your abilities with psionic energy generated from within your mind, you have several innate talents available to you, and you can manifest your power in ever growing ways.",
+              {
+                "type": "entries",
+                "name": "Psionics",
+                "entries": [
+                  "You use a method of spellcasting known as psionics, which harnesses your mental energy to warp reality into wondrous effects. Due to the nature of psionics, you ignore the components of any psion spells you have prepared, except material components that are consumed by the spell. Spells cast using psionics are unaffected by effects that negate magic, such as {@spell counterspell|PHB}, {@spell dispel magic|PHB}, and {@spell anti-magic field|PHB}."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Psionic Power",
+                "entries": [
+                  "Psionic power is a measure of a psion's available mental energy. A psion can only exert so much of their mental energy before becoming completely exhausted. You have an amount of psionic power equal to the number shown in the Psionic Power column of the psion table. Expended psionic power is replenished when you finish a long rest."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Talents",
+                "entries": [
+                  "At 1st level, you know four talents of your choice from the psion spell list. You learn additional psion talents of your choice at higher levels, shown in the Talents Known column of the Psion table.",
+                  "Psionic talents are manifestations of your mind, a reflex so natural that you can produce the effect repeatedly with little effort. A talent is a spell that you can cast at will, without expending psionic power and without preparing it in advance. You can also focus on a talent when you cast it, which adds costs and effects to the talent, as specified in its description. A talent's spell level is always 0. Talents gain potency as you gain levels in this class, shown in the talent's description."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Preparing and Casting Spells",
+                "entries": [
+                  "At the end of each long rest you take, you prepare the psion spells available to you. Choose a number of spells equal to your Intelligence modifier + your psion level from the psion spell list. You can only prepare a spell if its level is no greater than the number shown in the Psionic Power Limit column of the psion table for your level.",
+                  "To cast your psion spells, you must expend psionic power equal to the spell's level to create the effects in its description. You can expend more of your available psionic power to cast the spell at a higher level. For example, casting a 7th level spell costs 7 psionic power, while casting a 5th level spell at 6th level costs 6 psionic power. The most psionic power you can expend on a spell is equal to the number in the Psionic Power Limit column of the psion table for your level."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Spellcasting Ability",
+                "entries": [
+                  "Intelligence is the ability you use for your spellcasting, since your spells are created from psionic energy and shaped by your mind. You use your Intelligence whenever a spell refers to your spellcasting ability. You also use your Intelligence modifier when setting the saving throw DC for a spell you cast and when making an attack roll with one.",
+                  {
+                    "type": "abilityDc",
+                    "name": "Spell",
+                    "attributes": [
+                      "int"
+                    ]
+                  },
+                  {
+                    "type": "abilityAttackMod",
+                    "name": "Spell",
+                    "attributes": [
+                      "int"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Mental Discipline",
+            "gainSubclassFeature": true,
+            "entries": [
+              "Each psion focuses on a certain discipline of psionics, becoming a disciple of that discipline. This allows them to control and improve their psionic abilities, and with enough training, grants unique powers.",
+              "Your choice of discipline determines which kind of disciple you become: <b><b>Disciple of the Egoist</b></b>, <b><b>Disciple of the Kineticist</b></b>, <b>Disciple of the Nomad</b>, <b>Disciple of the Seer</b>, <b>Disciple of the Shaper</b>, or <b>Disciple of the Telepath</b>, detailed at the end of the class description. Your discipline gives you features when you choose it at 1st level and additional features at 6th, 10th, 14th, and 18th level.",
+              "Some of your mental discipline features require an attack roll or saving throw. Use your Innate Spellcasting feature to set the attack modifier and save DC for those rolls.",
+              {
+                "type": "entries",
+                "name": "Innate Spells",
+                "entries": [
+                  "Due to your focus on a specific discipline, you can learn specialized psionic spells as well as general ones. You can choose from the spell list specified by your discipline when preparing your psion spells and learning talents. You also train with a select few spells from your discipline's spell list, permanently fixing them into your mind."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Telepathic Link",
+            "entries": [
+              "You can establish direct links with the minds of others, allowing you to communicate intrinsically.",
+              "You can speak telepathically with any creature you can see within 60 feet of you. It automatically understands you and can respond in a way you understand as long as it speaks at least one language."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Psyche Shard",
+            "entries": [
+              "At 2nd level, you become able to create a fragment of your psyche, which contains a small amount of psionic energy and an imprint of personality. You choose the form that this shard takes, choosing from a mark on your body (such as a rune or tattoo), or that of a psicrystal (see Appendix A: Monsters), a quasi-living crystal. You can affix a psicrystal onto a piece of equipment, clothing, or trinket with 1 hour of work. You can't have more than one psyche shard at a time.",
+              "If your psyche shard is destroyed, you can create a new one with 8 hours of uninterrupted work. You can communicate with your psyche shard telepathically as long as it is within 100 feet of you.",
+              "Your psyche shard has a unique personality and its own subset of knowledge, determined by rolling a d20 (reroll 19 and 20) or choosing one of the options from the Shard Personalities table. Your psyche shard relays its knowledge to you telepathically while it is within 100 feet of you, allowing you to add your proficiency bonus (or twice your proficiency bonus if you are already proficient) to ability checks using the skill associated with its personality.",
+              {
+                "type": "table",
+                "caption": "Shard Personalities",
+                "colStyles": [
+                  "col-2 text-center",
+                  "col-6",
+                  "col-4"
+                ],
+                "colLabels": [
+                  "d20",
+                  "Personality",
+                  "Skill"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Artiste",
+                    "Performance"
+                  ],
+                  [
+                    "2",
+                    "Bully",
+                    "Intimidation"
+                  ],
+                  [
+                    "3",
+                    "Caring",
+                    "Animal Handling"
+                  ],
+                  [
+                    "4",
+                    "Coward",
+                    "Sleight of Hand"
+                  ],
+                  [
+                    "5",
+                    "Friendly",
+                    "Persuasion"
+                  ],
+                  [
+                    "6",
+                    "Heroic",
+                    "Athletics"
+                  ],
+                  [
+                    "7",
+                    "Liar",
+                    "Deception"
+                  ],
+                  [
+                    "8",
+                    "Meticulous",
+                    "Investigation"
+                  ],
+                  [
+                    "9",
+                    "Mystical",
+                    "Arcana"
+                  ],
+                  [
+                    "10",
+                    "Nimble",
+                    "Acrobatics"
+                  ],
+                  [
+                    "11",
+                    "Observant",
+                    "Perception"
+                  ],
+                  [
+                    "12",
+                    "Poised",
+                    "Survival"
+                  ],
+                  [
+                    "13",
+                    "Precise",
+                    "Medicine"
+                  ],
+                  [
+                    "14",
+                    "Resolute",
+                    "Religion"
+                  ],
+                  [
+                    "15",
+                    "Sage",
+                    "History"
+                  ],
+                  [
+                    "16",
+                    "Studious",
+                    "Nature"
+                  ],
+                  [
+                    "17",
+                    "Sneaky",
+                    "Stealth"
+                  ],
+                  [
+                    "18",
+                    "Sympathetic",
+                    "Insight"
+                  ]
+                ]
+              },
+              "If you choose a psicrystal, the crystal acts during your turn in combat, following your unspoken direction. The psicrystal can only take the action listed in its stat block.",
+              "As an action while you are on the same plane of existence, you can destroy your psyche shard, or you can teleport it to an unoccupied space within 10 feet of you if it isn't on your person."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Consumptive Power",
+            "entries": [
+              "Starting at 3rd level, you gain the ability to sacrifice your physical durability in exchange for psionic power.",
+              "When you cast a psion spell, you can pay its psionic power cost with your hit points instead. Your current and maximum hit points are both reduced by twice the psionic power cost of the spell. This reduction can’t be lessened in any way, and the reduction to your hit point maximum lasts until you finish a long rest.",
+              "Once you use this feature, you can’t use it again until you finish a short or long rest."
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ],
+            "name": "Ability Score Improvement"
+          }
+        ],
+        [],
+        [
+          {
+            "gainSubclassFeature": true,
+            "entries": [
+              "Choose a discipline of psionics on which you have focused your studies, from the list of available disciplines.",
+              "Your discipline grants you features when you choose it at 1st level and again at 6th, 10th, 14th, 18th, and 20th level."
+            ],
+            "name": "Mental Discipline"
+          }
+        ],
+        [],
+        [
+          {
+            "entries": [
+              "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ],
+            "name": "Ability Score Improvement"
+          }
+        ],
+        [],
+        [
+          {
+            "gainSubclassFeature": true,
+            "entries": [
+              "Choose a discipline of psionics on which you have focused your studies, from the list of available disciplines.",
+              "Your discipline grants you features when you choose it at 1st level and again at 6th, 10th, 14th, 18th, and 20th level."
+            ],
+            "name": "Mental Discipline"
+          }
+        ],
+        [],
+        [
+          {
+            "entries": [
+              "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ],
+            "name": "Ability Score Improvement"
+          }
+        ],
+        [],
+        [
+          {
+            "gainSubclassFeature": true,
+            "entries": [
+              "Choose a discipline of psionics on which you have focused your studies, from the list of available disciplines.",
+              "Your discipline grants you features when you choose it at 1st level and again at 6th, 10th, 14th, 18th, and 20th level."
+            ],
+            "name": "Mental Discipline"
+          }
+        ],
+        [],
+        [
+          {
+            "entries": [
+              "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ],
+            "name": "Ability Score Improvement"
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Psionic Body",
+            "entries": [
+              "At 18th level, the sheer extent of psionic energy within you causes it to suffuse your entire body. You no longer age naturally, and you are immune to disease, poison damage, and the poisoned condition."
+            ]
+          },
+          {
+            "gainSubclassFeature": true,
+            "entries": [
+              "Choose a discipline of psionics on which you have focused your studies, from the list of available disciplines.",
+              "Your discipline grants you features when you choose it at 1st level and again at 6th, 10th, 14th, 18th, and 20th level."
+            ],
+            "name": "Mental Discipline"
+          }
+        ],
+        [
+          {
+            "entries": [
+              "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ],
+            "name": "Ability Score Improvement"
+          }
+        ],
+        [
+          {
+            "name": "Psionic Enlightenment",
+            "entries": [
+              "At 20th level, your honed psionics have enlightened your mind, reaching heights unimaginable by others.",
+              "Your Intelligence score increases by 4. Your maximum Intelligence score is now 24."
+            ]
+          },
+          {
+            "gainSubclassFeature": true,
+            "entries": [
+              "Choose a discipline of psionics on which you have focused your studies, from the list of available disciplines.",
+              "Your discipline grants you features when you choose it at 1st level and again at 6th, 10th, 14th, 18th, and 20th level."
+            ],
+            "name": "Mental Discipline"
+          }
+        ]
+      ],
+      "multiclassing": {
+        "proficienciesGained": {
+          "armor": [
+            "light"
+          ]
+        },
+        "requirements": {
+          "int": 13
+        }
+      },
+      "subclassTitle": "Mental Discipline",
+      "subclasses": [
+        {
+          "name": "Disciple of the Egoist",
+          "shortName": "Egoist",
+          "source": "devikyn:RenewedPsionic",
+          "subclassFeatures": [
+            [
+              {
+                "entries": [
+                  "Disciples of the egoist see physical forms as nothing more than putty housing the mind and soul, and they can manifest abilities which allow them to easily alter those forms. Psychometabolic powers change the physical properties of creatures. Life force is essential to psychometabolism, and those who choose this discipline know that the essence of life provides the basis of every conceivable power.",
+                  {
+                    "name": "Egoist Innate Spells",
+                    "entries": [
+                      "You can choose from the egoist spell list, as well as the psion spell list, when you prepare your psion spells. Also, choose a 1st-level spell from the egoist spell list. You always have the spell prepared, and it doesn't count against the number of spells you can prepare. You can cast the chosen spell once without expending psionic power, and you must finish a long rest before you can do so again.",
+                      "You can choose an additional egoist spell for this feature at each of the psion levels shown in the Innate Spells table. The spells you choose must also be of a level no greater than the spell level shown in the Innate Spells table.",
+                      {
+                        "rows": [
+                          [
+                            "3rd",
+                            "2nd-level"
+                          ],
+                          [
+                            "5th",
+                            "3rd-level"
+                          ],
+                          [
+                            "7th",
+                            "4th-level"
+                          ],
+                          [
+                            "9th",
+                            "5th-level"
+                          ],
+                          [
+                            "11th",
+                            "6th-level"
+                          ],
+                          [
+                            "13th",
+                            "7th-level"
+                          ],
+                          [
+                            "15th",
+                            "8th-level"
+                          ],
+                          [
+                            "17th",
+                            "9th-level"
+                          ]
+                        ],
+                        "caption": "Innate Spells",
+                        "colStyles": [
+                          "col-6 text-center",
+                          "col-6"
+                        ],
+                        "colLabels": [
+                          "Psion Level",
+                          "Spell Level"
+                        ],
+                        "type": "table"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Armor Training",
+                    "entries": [
+                      "At 1st level, you gain proficiency with medium armor and shields."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Bestial Fury",
+                    "entries": [
+                      "Also at 1st level, you can manifest psionic claws which drain foes' mental energy and invigorate you with bestial fervor.",
+                      "As an action, you manifest long claws in a free hand. You are proficient with these claws, which are a melee weapon that deals 1d8 slashing damage. The claws remain until you are incapacitated or you use your bonus action to dismiss them. As part of the action, make a melee weapon attack with the claws against one creature within your reach. This initial attack deals extra damage when you reach certain levels in this class: 1d8 at 5th level, 2d8 at 11th level, and 3d8 at 17th level. At 6th level, your claws become magical and they score a critical hit on a roll of 19 or 20 on the d20."
+                    ]
+                  }
+                ],
+                "name": "Disciple of the Egoist"
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Energy Barrier",
+                    "entries": [
+                      "Starting at 6th level, you automatically absorb and convert natural energies into psionic power for yourself.",
+                      "Once per turn, when you take acid, cold, fire, lightning, or poison damage, you can reduce that damage by up to 3, to a minimum of 0, and regain the same amount of psionic power.",
+                      "You can regain a total amount of psionic power equal to your psion level with this feature. This limit resets when you finish a long rest."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Adaptive Body",
+                    "entries": [
+                      "Starting at 10th level, your psionics have permanently replaced some of your biological processes.",
+                      "You don’t need to eat, breathe, or sleep. To benefit from a long rest, you can spend 8 hours engaged in light activity instead of sleeping."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Fission",
+                    "entries": [
+                      "At 14th level, you can create a copy of yourself out of psionic energy.",
+                      "As an action, you shape an illusory duplicate of yourself in an unoccupied space within 5 feet of you. Your duplicate thinks and acts exactly as you do and follows your orders, although it will not do anything you wouldn't do yourself. After 1 hour or when the duplicate reaches 0 hit points, it crumbles away. Your duplicate has statistics matching yours and duplicates of your equipment, but duplicated equipment loses any magical properties its original has. If your duplicate ever loses physical contact with a duplicated piece of equipment, it crumbles and disappears. In combat, you roll initiative for the duplicate and control it on its turns.",
+                      "Your duplicate has half of your hit points, the same amount of psionic power as you and other physical traits you had at the time it was created. The duplicate does not preserve spells and other effects active on you when you create it.",
+                      "Once you have used this feature, you can't use it again until you finish a long rest."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Energy Conversion",
+                    "entries": [
+                      "Starting at 18th level, you can convert energy absorbed by your barrier into offensive power.",
+                      "When your Energy Barrier absorbs damage, the same amount of points are added to your energy conversion pool. The pool has a maximum of 30 points, and you can use your bonus action and expend all the points in the pool to cause your next attack that hits before the end of your turn to deal extra cold, fire or lightning damage (your choice) equal to the number of points spent."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Perfect Transformation",
+                    "entries": [
+                      "At 20th level, you can use psionic energy to transform yourself into other creatures.",
+                      "You can cast the {@spell shapechange|PHB} spell as a 9th-level psion spell, without requiring concentration."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "name": "Disciple of the Kineticist",
+          "subclassFeatures": [
+            [
+              {
+                "entries": [
+                  "Destructive minds tend to focus their powers into the shape of the kineticist, an explosive user of kinetic force. Psychokinesis powers manipulate energy or tap the power of the mind to produce a desired end. Many of these powers produce interesting visual effects above and beyond the standard secondary display, such as moving, melting, transforming, or blasting a target.",
+                  {
+                    "type": "entries",
+                    "name": "Kineticist Innate Spells",
+                    "entries": [
+                      "You can choose from the kineticist spell list, as well as the psion spell list, when you prepare your psion spells. Also, choose a 1st-level spell from the kineticist spell list. You always have the spell prepared, and it doesn't count against the number of spells you can prepare. You can cast the chosen spell once without expending psionic power, and you must finish a long rest before you can do so again.",
+                      "You can choose an additional kineticist spell for this feature at each of the psion levels shown in the Innate Spells table. The spells you choose must also be of a level no greater than the spell level shown in the Innate Spells table.",
+                      {
+                        "rows": [
+                          [
+                            "3rd",
+                            "2nd-level"
+                          ],
+                          [
+                            "5th",
+                            "3rd-level"
+                          ],
+                          [
+                            "7th",
+                            "4th-level"
+                          ],
+                          [
+                            "9th",
+                            "5th-level"
+                          ],
+                          [
+                            "11th",
+                            "6th-level"
+                          ],
+                          [
+                            "13th",
+                            "7th-level"
+                          ],
+                          [
+                            "15th",
+                            "8th-level"
+                          ],
+                          [
+                            "17th",
+                            "9th-level"
+                          ]
+                        ],
+                        "caption": "Innate Spells",
+                        "colStyles": [
+                          "col-6 text-center",
+                          "col-6"
+                        ],
+                        "colLabels": [
+                          "Psion Level",
+                          "Spell Level"
+                        ],
+                        "type": "table"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Telekinetic Mind",
+                    "entries": [
+                      "At 1st level, you can use your mind to move and manipulate objects as if you were touching them.",
+                      "You can attack with kinetic energy as an action, at a range of 60 feet. Make a ranged psionic attack against a creature or object within range that you can see. On a hit, it takes force damage equal to 1d8 plus your Intelligence modifier, and you can move it up to 10 feet in a straight line if it is Huge or smaller. This damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+                      "You also learn the {@spell mage hand|PHB} cantrip, or one psion cantrip of your choice if you already know it. If you focus when you cast mage hand, you can affect a willing creature with the hand. If the creature that you're manipulating with {@spell mage hand|PHB} is pushed or pulled, the creature instead remains in place if you succeed an Intelligence saving throw (DC equals the amount of feet the creature would be pushed or pulled)."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Inertial Shield",
+                    "entries": [
+                      "Also at 1st level, your kinetic abilities allow you to interrupt and deflect blows against you.",
+                      "While at least one of your hands are free and you are not wearing a shield, you can use your reaction when you are attacked to gain a +2 bonus to your AC until the start of your next turn. You can use this feature after the attack roll is made, but before determining if the attack hits or misses."
+                    ]
+                  }
+                ],
+                "name": "Disciple of the Kineticist"
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Kinetic Field",
+                    "entries": [
+                      "Starting at 6th level, you can form a kinetic field around yourself which catches and deflects projectiles.",
+                      "As a reaction, you can deflect a missile when you're hit by a ranged attack. When you do so, the damage you take is reduced by 10 + your Intelligence modifier + your Psion level.",
+                      "If the damage is reduced to 0 by this feature, you can catch the missile in the air. If caught this way, you can make a ranged psionic attack with it as part of the same reaction. You make this attack with proficiency. The type and damage are the same as the original attack."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Invisible Might",
+                    "entries": [
+                      "Starting at 10th level, your telekinesis acts as an augment to your physical strength.",
+                      "You gain proficiency in Strength saving throws, and when a Strength check or saving throw is required, you can add your Intelligence modifier to the result."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Telekinetic Flight",
+                    "entries": [
+                      "Starting at 14th level, your telekinetic control has become precise enough to allow you to carry yourself through the air.",
+                      "You can use your action to grant yourself a flying speed of 30 feet for 1 hour, as long as the combined weight of you and everything you're carrying doesn't exceed 15 lbs x your Intelligence score.",
+                      "Once you have used this feature, you can't use it again until you finish a long rest."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Safe Fall",
+                    "entries": [
+                      "Starting at 18th level, your mind instinctively activates your telekinetic powers, even when you are in danger.",
+                      "If you are falling, even while unconscious, you safely descend at a rate of 60 feet per round."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Unfettered Mind",
+                    "entries": [
+                      "At 20th level, your telekinetic power has become so great that it has become second nature.",
+                      "Your Telekinetic Mind no longer requires concentration, and its weight limit is doubled. Additionally, your Telekinetic Flight's speed is now 60 feet, and it has a duration of 8 hours."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "name": "Disciple of the Nomad",
+          "subclassFeatures": [
+            [
+              {
+                "entries": [
+                  "Disciples of the nomad are an avidly curious subset of psions, who derive discipline from the journeys they take in life. Psychoportation powers move the manifester, an object, or another creature through space and time. At its heart, this discipline requires a succinct, gut-level understanding of the structure of reality. Those who become disciples of the nomad try the impossible, and sometimes succeed.",
+                  {
+                    "type": "entries",
+                    "name": "Nomad Innate Spells",
+                    "entries": [
+                      "You can choose from the nomad spell list, as well as the psion spell list, when you prepare your psion spells. Also, choose a 1st-level spell from the nomad spell list. You always have the spell prepared, and it doesn't count against the number of spells you can prepare. You can cast the chosen spell once without expending psionic power, and you must finish a long rest before you can do so again.",
+                      "You can choose an additional nomad spell for this feature at each of the psion levels shown in the Innate Spells table. The spells you choose must also be of a level no greater than the spell level shown in the Innate Spells table.",
+                      {
+                        "caption": "Innate Spells",
+                        "colStyles": [
+                          "col-6 text-center",
+                          "col-6"
+                        ],
+                        "colLabels": [
+                          "Psion Level",
+                          "Spell Level"
+                        ],
+                        "rows": [
+                          [
+                            "3rd",
+                            "2nd-level"
+                          ],
+                          [
+                            "5th",
+                            "3rd-level"
+                          ],
+                          [
+                            "7th",
+                            "4th-level"
+                          ],
+                          [
+                            "9th",
+                            "5th-level"
+                          ],
+                          [
+                            "11th",
+                            "6th-level"
+                          ],
+                          [
+                            "13th",
+                            "7th-level"
+                          ],
+                          [
+                            "15th",
+                            "8th-level"
+                          ],
+                          [
+                            "17th",
+                            "9th-level"
+                          ]
+                        ],
+                        "type": "table"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Phasing Strike",
+                    "entries": [
+                      "At 1st level, you can strike an enemy with psionic energy, which surges into their body and mind.",
+                      "As an action, you hurl an orb of sonic energy. Make a ranged psionic attack against a creature within 60 feet of you that you can see. On a hit, you deal thunder damage equal 1d8 plus your Intelligence modifier, as the orb bursts on contact. This damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+                      "If you hit a creature, you can spend 1 psionic power to force it to make a Charisma saving throw. On a failure, the creature's next attack or effect that targets you before the end of your next turn is partially phased out, dampening the effect. It makes its first attack roll against you with disadvantage, or if you must make a saving throw against one of its effects, you make the first one with advantage."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Skate",
+                    "entries": [
+                      "Also at 1st level, you and those around you can slide along solid ground as if on ice.",
+                      "As an action, you and willing creatures you designate within 30 feet of you can start or stop psionically skating. You maintain equilibrium by mental will alone, allowing graceful turning and stopping with ease. A skating creature ignores difficult terrain, attack rolls have advantage against it, and when it takes the Dash action, it can move an additional amount of feet equal to half its speed without costing its movement."
+                    ]
+                  }
+                ],
+                "name": "Disciple of the Nomad"
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "There and Back Again",
+                    "entries": [
+                      "Starting at 6th level, you can instinctively dodge out of the way of certain area effects, such as a red dragon's fiery breath or an Ice Storm spell, by partially phasing your body to a different location. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Agile Defense",
+                    "entries": [
+                      "Starting at 10th level, you have learned a teleportation trick that allows you to appear as if you are in two places at once.",
+                      "You can use your bonus action to take the Dodge action."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Phase Door",
+                    "entries": [
+                      "Starting at 14th level, you can create an ethereal passage through most walls, allowing you to phase through them.",
+                      "As an action, you touch a wall of wooden, plaster, or stone material and use psionic energy to create a phase door. A phase door can only penetrate walls that are 5 feet deep or less. The phase door is invisible and usually inaccessible to all creatures except you. The door does not allow light, sound, psionic effects, or spell effects through it, nor can you see through it without using it. True seeing psionics or magical effects reveal a phase door but do not allow its use.",
+                      "Creatures other than you can only use the phase door if they meet one or more triggering conditions, which you set when you create the door. The conditions can be based on a creature’s name, identity, or alignment, but otherwise must be based on observable, tangible actions or qualities. A creature using a phase door disappears when it enters and appears when it exits, but it can stop inside the passage if there is room. A phase door takes a straight path through a wall, exiting at the closest 5-foot-by-5-foot space available.",
+                      "A phase door can be used six times before its psionic energy disperses and fades, ending the effect. A creature consumes one use of the door each time it passes through. Anything within the passage when its effect ends is harmlessly ejected back to its original entrance.",
+                      "Once you have used this feature, you can't use it again until you finish a long rest."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Effortless Journey",
+                    "entries": [
+                      "Starting at 18th level, teleportation has become so natural to you that you can do it with little effort.",
+                      "You can teleport instead of walking; each foot that you teleport costs 1 foot of your movement speed. If you attempt to teleport into an occupied space, you are instead shunted to the nearest unoccupied space, and your speed becomes 0 until the start of your next turn."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Phase Passage",
+                    "entries": [
+                      "At 20th level, the effects of your phase door become permanent, and you can pierce almost any material with it.",
+                      "When you use your Phase Door, it can penetrate any non-magical material, and it can be used an unlimited amount of times. If you wish to dispel a Phase Door you created, you can use your action and touch it to end the effect."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "name": "Disciple of the Seer",
+          "subclassFeatures": [
+            [
+              {
+                "entries": [
+                  "Seers are psions who master clairsentience - the power to learn secrets long forgotten, to glimpse the immediate future and predict the far future, and to know what is normally unknowable.",
+                  {
+                    "type": "entries",
+                    "name": "Seer Innate Spells",
+                    "entries": [
+                      "You can choose from the seer spell list, as well as the psion spell list, when you prepare your psion spells. Also, choose a 1st-level spell from the seer spell list. You always have the spell prepared, and it doesn't count against the number of spells you can prepare. You can cast the chosen spell once without expending psionic power, and you must finish a long rest before you can do so again.",
+                      "You can choose an additional seer spell for this feature at each of the psion levels shown in the Innate Spells table. The spells you choose must also be of a level no greater than the spell level shown in the Innate Spells table.",
+                      {
+                        "caption": "Innate Spells",
+                        "colStyles": [
+                          "col-6 text-center",
+                          "col-6"
+                        ],
+                        "colLabels": [
+                          "Psion Level",
+                          "Spell Level"
+                        ],
+                        "rows": [
+                          [
+                            "3rd",
+                            "2nd-level"
+                          ],
+                          [
+                            "5th",
+                            "3rd-level"
+                          ],
+                          [
+                            "7th",
+                            "4th-level"
+                          ],
+                          [
+                            "9th",
+                            "5th-level"
+                          ],
+                          [
+                            "11th",
+                            "6th-level"
+                          ],
+                          [
+                            "13th",
+                            "7th-level"
+                          ],
+                          [
+                            "15th",
+                            "8th-level"
+                          ],
+                          [
+                            "17th",
+                            "9th-level"
+                          ]
+                        ],
+                        "type": "table"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Psionic Anchor",
+                    "entries": [
+                      "At 1st level, you can pierce an enemy's mind with a psionic anchor, allowing you to know their general location.",
+                      "As an action, choose a creature you can see within 60 feet of you. A white-hot halo of psionic energy appears around its head, causing it immense pain. The target must make a Wisdom saving throw, taking psychic damage equal to 1d8 plus your Intelligence modifier on a failure, or half on a success. This damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+                      "If a creature fails the save, you can spend 1 psionic power to cast a psionic talent as a bonus action, targeting the same creature. The talent must be one that deals no damage, and the target automatically fails its saving throw against the talent, if any."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Object Reading",
+                    "entries": [
+                      "Also at 1st level, you can use psionics to investigate an object that you touch, showing you a vision of its past.",
+                      "As an action, you touch an object and maintain contact with it. After 1 minute of remaining in contact with it, you learn certain details pertaining to the object's previous owner. You learn their race, gender, age, alignment, how they came to posess the object, and how they lost it. An object without any previous owners reveals no information."
+                    ]
+                  }
+                ],
+                "name": "Disciple of the Seer"
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Combat Precognition",
+                    "entries": [
+                      "Starting at 6th level, you have a precognitive sense of danger, allowing you to react quickly to its presence.",
+                      "You can add your Intelligence modifier to initiative rolls, and you can't be surprised while you are conscious. You can use your reaction when you roll initiative to telepathically alert one creature within range of your telepathy to the danger, making them unable to be surprised for this combat."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Mind's Eye",
+                    "entries": [
+                      "Starting at 10th level, you mentally sense the presence of matter around you, allowing you to feel others' presence.",
+                      "You gain blindsight out to a range of 20 feet."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Book of Knowledge",
+                    "entries": [
+                      "Starting at 14th level, you obtain the technique necessary to form the Book of Knowledge - a ledger of cosmic knowledge both discovered and undiscovered.",
+                      "As a bonus action, you can form the Book of Knowledge in one of your free hands. The book's pages are filled with indecipherable writing, even when observed with magic. No matter how many pages are turned, there always seem to be more pages. The cover appears as its observer imagines, within reason. For example, the cover can resemble an animated reflection of the night sky, a furry hide, or perhaps even made of ice or dripping water. These elements fail to hold up to physical inspection - the book feels like a normal book. The book crumbles to cosmic dust and disappears after 10 minutes.",
+                      "You can telepathically pose up to 10 questions to the book each time you form it. When asked an appropriate question, some of the markings rearrange to form a truthful answer, written in a language only you understand. You can ask for statistics of a creature if you know its true name - in which case, you learn its alignment, languages, type, and one of each of its immunities, resistances, and vulnerabilities - or for the properties of an object - in which case, you learn what materials it is made of, and the effects and mechanisms of any curses, enchantments or traps.",
+                      "Answers remain forever written in the book, and you can accurately recall the question posed when you read the answer. If you desire to see a certain page or a question that you previously posed, the next page you turn to will be the relevant page. Once you have used this feature, you can't use it again until you finish a long rest."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Shape Reality",
+                    "entries": [
+                      "Starting at 18th level, you gain an instinctive, limited ability to shape reality around you in response to threats.",
+                      "In response to an attack hitting you or when you fail a saving throw, you can use your reaction to roll an additional d20 and choose which result to use.",
+                      "You can use this feature twice, and expended uses are replenished when you finish a long rest."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Glimpse of Omniscience",
+                    "entries": [
+                      "At 20th level, you obtain a fragment of universal knowledge, enlightening your mind. This grants you certain benefits.",
+                      {
+                        "items": [
+                          "You are unaffected by <i>clairsentience</i> and <i>divination</i> spells unless you choose to be.",
+                          "You make Intelligence checks with advantage.",
+                          "You can ask the Book of Knowledge to describe a specific event that happened within the last 1,000 years, which it will describe on up to 1 page. This provides up to 10 useful facts about the event."
+                        ],
+                        "type": "list"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "name": "Disciple of the Shaper",
+          "subclassFeatures": [
+            [
+              {
+                "entries": [
+                  "Psions with particularly creative minds tend to gravitate towards the discipline of the shaper, a discipline which manifests powers of metacreativity. Metacreativity creates objects, creatures, or other forms of matter. Creatures created through metacreativity prove unstable; they will usually, but do not always, obey your commands.",
+                  {
+                    "type": "entries",
+                    "name": "Shaper Innate Spells",
+                    "entries": [
+                      "You can choose from the shaper spell list, as well as the psion spell list, when you prepare your psion spells. Also, choose a 1st-level spell from the shaper spell list. You always have the spell prepared, and it doesn't count against the number of spells you can prepare. You can cast the chosen spell once without expending psionic power, and you must finish a long rest before you can do so again.",
+                      "You can choose an additional shaper spell for this feature at each of the psion levels shown in the Innate Spells table. The spells you choose must also be of a level no greater than the spell level shown in the Innate Spells table.",
+                      {
+                        "rows": [
+                          [
+                            "3rd",
+                            "2nd-level"
+                          ],
+                          [
+                            "5th",
+                            "3rd-level"
+                          ],
+                          [
+                            "7th",
+                            "4th-level"
+                          ],
+                          [
+                            "9th",
+                            "5th-level"
+                          ],
+                          [
+                            "11th",
+                            "6th-level"
+                          ],
+                          [
+                            "13th",
+                            "7th-level"
+                          ],
+                          [
+                            "15th",
+                            "8th-level"
+                          ],
+                          [
+                            "17th",
+                            "9th-level"
+                          ]
+                        ],
+                        "caption": "Innate Spells",
+                        "colStyles": [
+                          "col-6 text-center",
+                          "col-6"
+                        ],
+                        "colLabels": [
+                          "Psion Level",
+                          "Spell Level"
+                        ],
+                        "type": "table"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Energy Weapon",
+                    "entries": [
+                      "At 1st level, you can create weapons out of psionic energy.",
+                      "Using your bonus action, or your reaction when you roll initiative, you create a weapon with a faint sky-blue aura, which takes the form of any simple or martial weapon and persists for 1 hour. If you create a onehanded weapon, you can create one in each hand. If you create a ranged weapon, you can also create 20 non-magical pieces of the weapon's appropriate type of ammunition. You are proficient with the weapon, and its properties are the same as its mundane counterpart.",
+                      "You can spend up to 3 psionic power whenever you make an attack with one of your energy weapons, granting the amount spent as a bonus to your attack and damage rolls.",
+                      "The maximum number of energy weapons that can exist at the same time is equal to your Intelligence modifier (minimum one)."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Create Tools",
+                    "entries": [
+                      "Also at 1st level, you can create tools out of psionic energy.",
+                      "Using your action, you can create any piece of non-magical adventuring gear worth 5 gp or less. Items created by this feature cannot be used as food. Otherwise, an item created by this feature has the same properties as its physical counterpart. After 10 minutes, the psionic energy comprising the item can no longer hold its form and disappears. Once you have created a particular item, you cannot create the same item again for 10 minutes."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Psionic Drone",
+                    "entries": [
+                      "Starting at 6th level, you use a small amount of psionic energy to create a protective construct.",
+                      "Over the course of a long rest, you can create a psionic drone. It has the statistics of a homunculus, except it doesn't have its Bite attack. You can only have one psionic drone at a time. It is inexorably devoted to you, obeying your every order even if it requires sacrifice.",
+                      "You can use your action to temporarily sequester it away in a harmless pocket dimension where it awaits your summons. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.",
+                      "While your psionic drone is within 30 feet of you, you can use your reaction when you are hit with an attack to psionically redirect the blow to it. The psionic drone takes the attack and its effects instead of you."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Surge of Wind",
+                    "entries": [
+                      "Starting at 10th level, your psionic powers create a windy surge around you, momentarily protecting and guiding you.",
+                      "When you cast a spell of 1st level or higher, you gain two benefits until the end of your turn: your movement doesn’t provoke opportunity attacks, and you have a climbing speed equal to your walking speed."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Microbiome",
+                    "entries": [
+                      "Starting at 14th level, you can create a microbiome around yourself, mimicking life with psionic energy.",
+                      "As an action, you project psionic energy out to a distance of 20 feet. The area bursts with psionically constructed moss, fungi, vines and other plant matter, and plant-like pods sprout from the ground. Some of this plant life converges into a shambling mound under the control of the DM. At the start of each of the creature's turns, you must make a DC 15 Intelligence check. On a success, the shambling mound is friendly to you and your allies until the start of your next turn. On a failure, it is hostile to all creatures instead.",
+                      "This effect lasts while you are concentrating(as if on a spell) for up to 10 minutes, after which the microbiome wilts and crumbles, vanishing as the psionic energy is expended.",
+                      "Once you have used this feature, you can't use it again until you finish a long rest."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Obedient Manifestation",
+                    "entries": [
+                      "At 18th level, you tame some of the unpredictable nature of psionicallycreated creatures.",
+                      "The DC for your Microbiome becomes 10. Additionally, you can use your bonus action to command a creature created by a spell or feature of yours to take a specific action, which it uses its reaction to carry out. A creature cannot use its multiattack, if it has one, via this command."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Flourishing Creation",
+                    "entries": [
+                      "At 20th level, you have become exceptionally efficient at using your psionic energy to create matter.",
+                      "When you create a creature or an object with either a spell or one of your features, you can choose one of the creatures or objects to create a duplicate of it, which appears in an unoccupied space within 5 feet of the original and has the same statistics as the original."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "name": "Disciple of the Telepath",
+          "subclassFeatures": [
+            [
+              {
+                "entries": [
+                  "Psion disciples of the telepath shed nearly all pretenses from themselves, focused on the machinery at work within the mind. Telepathy powers can spy on and affect the minds of others, influencing or controlling their behavior. All telepathic powers are mind-affecting, and types such as charms and compulsions grant influence over a subjected creature.",
+                  {
+                    "type": "entries",
+                    "name": "Telepath Innate Spells",
+                    "entries": [
+                      "You can choose from the telepath spell list, as well as the psion spell list, when you prepare your psion spells. Also, choose a 1st-level spell from the telepath spell list. You always have the spell prepared, and it doesn't count against the number of spells you can prepare. You can cast the chosen spell once without expending psionic power, and you must finish a long rest before you can do so again.",
+                      "You can choose an additional telepath spell for this feature at each of the psion levels shown in the Innate Spells table. The spells you choose must also be of a level no greater than the spell level shown in the Innate Spells table.",
+                      {
+                        "colStyles": [
+                          "col-6 text-center",
+                          "col-6"
+                        ],
+                        "colLabels": [
+                          "Psion Level",
+                          "Spell Level"
+                        ],
+                        "caption": "Innate Spells",
+                        "rows": [
+                          [
+                            "3rd",
+                            "2nd-level"
+                          ],
+                          [
+                            "5th",
+                            "3rd-level"
+                          ],
+                          [
+                            "7th",
+                            "4th-level"
+                          ],
+                          [
+                            "9th",
+                            "5th-level"
+                          ],
+                          [
+                            "11th",
+                            "6th-level"
+                          ],
+                          [
+                            "13th",
+                            "7th-level"
+                          ],
+                          [
+                            "15th",
+                            "8th-level"
+                          ],
+                          [
+                            "17th",
+                            "9th-level"
+                          ]
+                        ],
+                        "type": "table"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Psychic Pressure",
+                    "entries": [
+                      "At 1st level, you can telepathically assault the mind of a creature, bending it to your will.",
+                      "As an action, you can overpower the mind of a creature within range of your telepathy. The target makes an Intelligence saving throw against your discipline save DC, taking psychic damage equal to 1d10 plus your Intelligence modifier on a failure, or half on a success. This damage increases by 1d8 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).",
+                      "If the target fails its save, you can then spend 1 psionic power to haze the target's mind, imposing disadvantage on its attack rolls until the start of your next turn."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Seeping Thought",
+                    "entries": [
+                      "Also at 1st level, when you are in close proximity with a creature, inklings of its thought leak out of its mind, which you can sense.",
+                      "After each full minute you spend actively talking to a creature within range of your telepathy, the DM gives a one-word summary of its most prevalent thought."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Seize Mind",
+                    "entries": [
+                      "Starting at 6th level, you can telepathically subvert an assailant's focus when it attempts to affect your mind, guarding against the effect.",
+                      "When a creature you can see within range of your telepathy forces you to make an Intelligence, Wisdom, or Charisma saving throw, you can use your reaction to add your Intelligence modifier to the result."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Mind-Link",
+                    "entries": [
+                      "Starting at 10th level, you can create a telepathic link that persists over great distances.",
+                      "You can use your action to link your mind with a creature you can see within range, allowing your telepathy to reach it across any distance. An unwilling creature can make an Intelligence saving throw to resist the effect. This link persists until you use your action to break it or until you are on a different plane of existence than the creature.",
+                      "You can have a maximum number of creatures equal to half your psion level linked with you at a time via this feature."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Dominate Mind",
+                    "entries": [
+                      "Starting at 14th level, you can embed a portion of your will into another creature's mind, allowing you to control it.",
+                      "As an action, you can force a creature that you can see within range of your telepathy to make an Intelligence saving throw. On a failure, you gain an overwhelming influence over it while you concentrate (as if on a spell) for up to 10 minutes. You can only have one creature under this effect at any time.",
+                      "While a creature is under this effect and within range of your telepathy, you can use your action to command it to take any action, general or specific, which it must follow. If you issue a command that is directly harmful to it, it ignores the command. If a target is not commanded on a turn, it will behave normally.",
+                      "Each time the target receives a command from you, it makes a new Intelligence saving throw after following the command, breaking free of your influence on a success. Telepathic creatures have advantage on the saving throw.",
+                      "Once you have used this feature, you can't use it again until you finish a long rest."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Telepathic Field",
+                    "entries": [
+                      "At 18th level, your telepathic powers project even further, allowing you to reach distant minds.",
+                      "The range of your telepathy increases to 120 feet."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Unbreakable Will",
+                    "entries": [
+                      "At 20th level, your focus is so keen that you can have multiple creatures bend to your will at the same time.",
+                      "Your Dominate Mind feature gains the following properties:",
+                      {
+                        "items": [
+                          "It lasts until the creature is killed or succeeds a saving throw against its effects, without requiring concentration.",
+                          "You can command any number of creatures under your control, instead of just one.",
+                          "You can have any number of creatures under the effect of Dominate Mind, but while more than one creature is affected, the total CR of all affected creatures must be 20 or lower. If you try to use Dominate Mind on a creature that raises the total CR above 20, it fails, and all creatures currently affected by Dominate Mind can make an Intelligence saving throw to break free of your influence."
+                        ],
+                        "type": "list"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+}
