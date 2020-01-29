@@ -2942,6 +2942,7 @@
   "spell": [
     {
       "name": "Acid Splash (Psi)",
+      "level": 0,
       "_copy": {
         "name": "Acid Splash",
         "source": "PHB"
@@ -3325,7 +3326,7 @@
         "Choose one creature you can see within range. The target must make a Wisdom saving throw. On a failed save, it takes 1d6 psychic damage and can’t willingly move closer to you for the duration unless it succeeds on a Wisdom saving throw. A creature can only be forced to make this saving throw once per turn.",
         "The talent’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
         "<b><i>Focus.</i></b> If you focus when you cast this spell, you must concentrate on it, and the spell lasts for up to 1 minute.",
-        "If you also expend 1-5 psionic power when you cast the spell, if the target fails its saving throw, it must roll a d4 each time it makes an ability check or saving throw and subtract the result from its total for the duration, and you can select one additional target for the spell for each point spent."
+"If you also expend 1-5 psionic power when you cast the spell, if the target fails its saving throw, it must roll a d4 each time it makes an ability check or saving throw and subtract the result from its total for the duration, and you can select one additional target for the spell for each point spent."
       ],
       "page": 25,
       "damageInflict": [
@@ -3345,6 +3346,7 @@
     },
     {
       "name": "Fire Bolt (Psi)",
+      "level": 0,
       "_copy": {
         "name": "Fire Bolt",
         "source": "PHB"
@@ -3400,6 +3402,7 @@
     },
     {
       "name": "Friends (Psi)",
+      "level": 0,
       "_copy": {
         "name": "Friends",
         "source": "PHB"
@@ -3451,6 +3454,7 @@
     },
     {
       "name": "Guidance (Psi)",
+      "level": 0,
       "_copy": {
         "name": "Guidance",
         "source": "PHB"
