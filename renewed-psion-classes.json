@@ -65,12 +65,12 @@
               "name": "Multiclassing",
               "type": "entries",
               "entries": [
-                "Multiclassing allows you to gain levels in multiple classes. Doing so lets you mix the abilities of those classes to realize a character concept that might not be reflected in one of the standard class options. Refer to page 163 of the <i>Player's Handbook</i> for the full details of Multiclassing."
+                "Multiclassing allows you to gain levels in multiple classes. Doing so lets you mix the abilities of those classes to realize a character concept that might not be reflected in one of the standard class options. Refer to page 163 of the <i>Player's Handbook</i> for the full details of Multiclassing.",
                 {
                   "type": "entries",
                   "name": "Prerequisites",
                   "entries": [
-                    "To qualify for a new class, you must meet the ability score prerequisites for both your current class and your new one, as shown in the Multiclassing Prerequisites table. The Psion is added to this table."
+                    "To qualify for a new class, you must meet the ability score prerequisites for both your current class and your new one, as shown in the Multiclassing Prerequisites table. The Psion is added to this table.",
                     {
                       "type": "table",
                       "caption": "Multiclassing Proficiencies",
@@ -89,7 +89,7 @@
                         ]
                       ]
                     }
-                  ],
+                  ]
                 },
                 {
                   "name": "Proficiencies",
@@ -1719,4 +1719,1224 @@
       ]
     }
   ],
+  "subclass": [
+    {
+      "class": "Wizard",
+      "name": "Metapsionics Arcane Tradition",
+      "shortName": "Metapsionics",
+      "source": "devikyn:RenewedPsionic",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Metapsionics Tradition",
+            "type": "entries",
+            "entries": [
+              "Metapsionics is the study of understanding and emulating the unusua abilities of psionics through magic. Wizards who master this arcan tradition gain a glimpse into the world of psychic creatures - often  humbling and enlightening experience which teaches them somethin fundamentally important about the makeup of magic and psionic alike.",
+              {
+                "name": "Psionics Study",
+                "type": "entries",
+                "entries": [
+                  "At 2nd level, you can choose from the psion spell list, in addition to th wizard spell list, when you learn a new wizard spell. Spells you learn i this way count as wizard spells for you, and you don't need to provid verbal and somatic components to cast them.",
+                  "Additionally, when a psionic spell is cast within 60 feet of you, yo can make an Intelligence (Arcana) check against DC 10 + the spell' level. On a success, you know the name of the spell that was cast, an you know its mental discipline (if any)."
+                ]
+              },
+              {
+                "name": "Extension of Mind",
+                "type": "entries",
+                "entries": [
+                  "Also at 2nd level, your technique of marrying spellcasting and psionic creates a temporary area of psionic influence around you while yo concentrate.",
+                  "While you concentrate on a wizard spell, an aura of influenc extends outward from you to a distance of 30 feet, ignoring cover which moves with you. You can communicate telepathically with an creature inside the aura. A creature understands your telepathi speech if it speaks at least one language, and it can deliver telepathi replies in a way you understand. Creatures within this aura also hav disadvantage on Wisdom saving throws against your wizard spells."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Focus Reinforcement",
+                "type": "entries",
+                "entries": [
+                  "At 6th level, your mental focus has increased, allowing you to remai concentrated through greater pain. When you fail a concentratio check, you can choose to succeed instead.",
+                  "Once you've used this feature, you can't use it again until you finish  short or long rest."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Sharpened Mind",
+                "type": "entries",
+                "entries": [
+                  "At 10th level, your study of psionics subtly alters your mind such tha you can easily perceive slight fluctuations in the minds of others.",
+                  "You can add your Intelligence modifier to Wisdom (Insight) check you make against creatures that can't use psionics. Also, wheneve you successfully discern that a creature is lying to you, that creatur takes psychic damage equal to your Intelligence modifier."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Conduit Manipulation",
+                "type": "entries",
+                "entries": [
+                  "At 14th level, you can briefly focus on using psionics to reshape effect as they occur around you.",
+                  "Whenever you see a spell being cast by another creature within 12 feet of you that affects an area, you can use your reaction to increas or decrease the area's size. An area can't be reduced below 5 feet wit this feature. You can modify an area in one of the following ways:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "If the area is a cone, you can modify it by up to 20 feet.",
+                      "If the area is a radius, you can modify it by up to 10 feet.",
+                      "If the area is a cube or a cylinder, you can modify one of the dimensions, other than the radius, by up to 30 feet.",
+                      "If the area is a line, you can modify its length by up to 60 feet."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "class": "Cleric",
+      "name": "Mind Domain",
+      "shortName": "Mind",
+      "source": "devikyn:RenewedPsionic",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Mind Domain",
+            "type": "entries",
+            "entries": [
+              "Clerics of the mind domain channel the powers of the divine throug psionic power, granted to them by their faith. These practitioners ca call upon the magic of the divine, as well as project the authority o their faith's domain using their mind, rather than channeling thei power for themselves. Deities such as Auppenser, Deneir and eve those like Ilsensine and Sseth call upon clerics of this domain.",
+              {
+                "type": "table",
+                "caption": "Mind Domain Spells",
+                "colLabels": [
+                  "Cleric Level",
+                  "Spells"
+                ],
+                "colStyles": [
+                  "col-3 text-center",
+                  "col-9"
+                ],
+                "rows": [
+                  [
+                    "1st",
+                    "{@spell dissonant whispers|PHB}, {@spell Tenser's floating disk|PHB}"
+                  ],
+                  [
+                    "3rd",
+                    "{@spell detect thoughts|PHB}, {@spell mind spike|XGE}"
+                  ],
+                  [
+                    "5th",
+                    "{@spell hypnotic pattern|PHB}, {@spell tongues|PHB}"
+                  ],
+                  [
+                    "7th",
+                    "{@spell hallucinatory terrain|PHB}, {@spell phantasmal killer|PHB}"
+                  ],
+                  [
+                    "9th",
+                    "{@spell Rary's telepathic bond|PHB}, {@spell synaptic static|XGE}"
+                  ]
+                ]
+              },
+              {
+                "name": "Bonus Proficiencies",
+                "type": "entries",
+                "entries": [
+                  "At 1st level, you are proficient with heavy armor and martial weapons."
+                ]
+              },
+              {
+                "name": "Psychic Aura",
+                "type": "entries",
+                "entries": [
+                  "Also at 1st level, the psionic energy channeling through you manifest as an aura, which bolsters you and your allies' abilities. This aur projects outward in a 10-foot radius around you, ignoring cover, an moves with you. The aura is disabled while you are unconscious. Yo and creatures of your choice within the aura can add your Wisdo modifier to their initiative rolls.",
+                  "Also, when a creature within the aura other than you makes  Wisdom (Perception) check, you can use your reaction to grant a + bonus to the check. You can do so before or after rolling the d20, bu before the GM determines the outcome of the check. You can use thi reaction a number of times equal to your Wisdom modifier, an expended uses are replenished when you finish a long rest.",
+                  "At 17th level, the radius of this aura increases to 30 feet an creatures of your choice within the aura can add a +2 bonus to thei attack and damage rolls, as well as to their AC."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Channel Divinity: Deity's Mantle",
+                "type": "entries",
+                "entries": [
+                  "At 2nd level, you can use your Channel Divinity to create a psionic mantle around yourself, infused with your prayers that beseech your deity for aid.",
+                  "As an action, you don a mantle of flowing, intangible psionic energy for 10 minutes. This mantle grants one of the following benefits of your choice when you use this Channel Divinity option:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "You have advantage on saving throws against effects imposed by celestials, fiends, and fey.",
+                      "You have a +5 bonus to Strength and Dexterity checks you make.",
+                      "You can communicate telepathically with up to 5 willing allies of your choice while you are on the same plane of existence. Chosen allies understand your telepathic speech regardless of whether you share a language, and you understand their telepathic replies.",
+                      "Your weapon attacks become magical, and you can deal psychic damage with them, instead of their normal damage type.",
+                      "You gain temporary hit points equal to 5 + 2 per each of your cleric levels, which last until this effect ends."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Divine Grace",
+                "type": "entries",
+                "entries": [
+                  "At 6th level, your deity's mantle provides you with divine protection.",
+                  "While your Deity's Mantle is active, you can add your Wisdom modifier to all saving throws you make."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Divine Strike",
+                "type": "entries",
+                "entries": [
+                  "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "class": "Fighter",
+      "name": "Ardent Archetype",
+      "shortName": "Ardent",
+      "source": "devikyn:RenewedPsionic",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Ardent Archetype",
+            "type": "entries",
+            "entries": [
+              "Ardents are fiercely driven psionic fighters that center thei personalities around certain inevitable philosophies, rather tha honing the discipline of their minds. Universal truths afford power t these psionically talented warriors, who train their mind and body i accordance with a lifetime of understanding and personal experiences Ardents are driven by emotion towards goals that align with thei philosophies, as their conviction leads them to ever greate understanding and, subsequently, power.",
+              {
+                "name": "Ardent Inevitability",
+                "type": "entries",
+                "entries": [
+                  "At 3rd level, your dedication towards embracing an inevitable facet o the universe begins to manifest as psionic power. You embrace two o the options listed under \"Ardent Inevitabilities\" below. You embrac another option at 10th and 18th level in this class.",
+                  "Your first choice of ardent inevitability becomes your focus. Whil you are focused on an inevitability, you have the benefits listed unde that option. You can only focus on one inevitability at a time, and yo can change your focus to another inevitability option that you kno when you finish a long rest.",
+                  {
+                    "name": "Ardent Inevitabilities",
+                    "type": "entries",
+                    "entries": [
+                      "The inevitabilities are listed in alphabetical order.",
+                      "<b><i>Conflict and Justice.</i></b> You can deal extra damage equal to your Intelligence modifier when you score a critical hit, and when you are hit with a melee attack, your attacker takes psychic damage equal to your Intelligence modifier.",
+                      "<b><i>Creation and Destruction.</i></b> You can add your Intelligence modifie to the total amount healed whenever you roll a hit die during a shor rest, and your weapon attacks deal maximum damage against objects rather than rolling.",
+                      "<b><i>Death and Life.</i></b> You can add your Intelligence modifier to you death saving throws, and you have advantage on Wisdom (Medicine checks to stabilize others.",
+                      "<b><i>Fate and Freedom.</i></b> When you finish a long rest, roll a d20 an record the result (you can't have more than one result recorded at  time.) When you roll initiative, you can choose to replace the d20 resul with the recorded number. Also, you have advantage on Strength an Dexterity checks made to escape effects that grapple or restrain you.",
+                      "<b><i>Light and Darkness.</i></b> You gain darkvision to a distance of 60 feet. I you already have darkvision, its range increases by 30 feet instead.",
+                      "<b><i>Law and Chaos.</i></b> You have advantage on saving throws agains being charmed or frightened."
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Innate Spellcasting",
+                "type": "entries",
+                "entries": [
+                  "Also at 3rd level, you draw from your psionic well of power through your focus on philosophy, which allows you to learn psionic spells.",
+                  {
+                    "name": "Psionics",
+                    "type": "entries",
+                    "entries": [
+                      "You use a method of spellcasting known as psionics, which harnesses your mental energy to warp reality into wondrous effects. Due to the nature of psionics, you ignore the components of any psion spells you have prepared, except material components that are consumed by the spell. Spells cast using psionics are unaffected by effects that negate magic, such as counterspell, dispel magic, and anti-magic field."
+                    ]
+                  },
+                  {
+                    "type": "table",
+                    "caption": "Ardent Innate Spellcasting",
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-2 text-center",
+                      "col-2 text-center",
+                      "col-2 text-center",
+                      "col-3 text-center"
+                    ],
+                    "colLabels": [
+                      "Fighter Level",
+                      "Talents Known",
+                      "Spells Known",
+                      "Psionic Power",
+                      "Psionic Power Limit"
+                    ],
+                    "rows": [
+                      [
+                        "3rd",
+                        "3",
+                        "3",
+                        "2",
+                        "1"
+                      ],
+                      [
+                        "4th",
+                        "3",
+                        "4",
+                        "3",
+                        "1"
+                      ],
+                      [
+                        "5th",
+                        "3",
+                        "4",
+                        "3",
+                        "1"
+                      ],
+                      [
+                        "6th",
+                        "3",
+                        "4",
+                        "3",
+                        "1"
+                      ],
+                      [
+                        "7th",
+                        "3",
+                        "5",
+                        "8",
+                        "2"
+                      ],
+                      [
+                        "8th",
+                        "3",
+                        "6",
+                        "8",
+                        "2"
+                      ],
+                      [
+                        "9th",
+                        "3",
+                        "6",
+                        "8",
+                        "2"
+                      ],
+                      [
+                        "10th",
+                        "4",
+                        "7",
+                        "10",
+                        "2"
+                      ],
+                      [
+                        "11th",
+                        "4",
+                        "8",
+                        "10",
+                        "2"
+                      ],
+                      [
+                        "12th",
+                        "4",
+                        "8",
+                        "10",
+                        "2"
+                      ],
+                      [
+                        "13th",
+                        "4",
+                        "9",
+                        "16",
+                        "3"
+                      ],
+                      [
+                        "14th",
+                        "4",
+                        "10",
+                        "16",
+                        "3"
+                      ],
+                      [
+                        "15th",
+                        "4",
+                        "10",
+                        "16",
+                        "3"
+                      ],
+                      [
+                        "16th",
+                        "4",
+                        "11",
+                        "19",
+                        "3"
+                      ],
+                      [
+                        "17th",
+                        "4",
+                        "11",
+                        "19",
+                        "3"
+                      ],
+                      [
+                        "18th",
+                        "4",
+                        "11",
+                        "19",
+                        "3"
+                      ],
+                      [
+                        "19th",
+                        "4",
+                        "12",
+                        "23",
+                        "4"
+                      ],
+                      [
+                        "20th",
+                        "4",
+                        "13",
+                        "23",
+                        "4"
+                      ]
+                    ]
+                  },
+                  {
+                    "name": "Psionic Talents",
+                    "type": "entries",
+                    "entries": [
+                      "You learn three talents of your choice from the psion spell list. You learn another psion talent of your choice at 10th level in this class."
+                    ]
+                  },
+                  {
+                    "name": "Psionic Power",
+                    "type": "entries",
+                    "entries": [
+                      "The Ardent Innate Spellcasting table shows how much psionic power you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend psionic power equal to the spell's level when you cast it. You regain all expended psionic power when you finish a long rest.",
+                      "For example, if you are a level 8 fighter and you know the 1st-level spell {@spell magic missile|PHB}, you can spend 1 psionic power to cast it at 1st level or 2 psionic power to cast it at 2nd level. There is a limit to the amount of psionic power you can sustain at a time; you can't cast a spell if its psionic power cost is greater than your Psionic Power Limit."
+                    ]
+                  },
+                  {
+                    "name": "Spellcasting Ability",
+                    "type": "entries",
+                    "entries": [
+                      "Intelligence is your ability for your psionic spells, since they are created out of psionic energy and shaped by your mind. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a psionic spell you cast and when making an attack roll with one.",
+                      {
+                        "attributes": [
+                          "int"
+                        ],
+                        "name": "Spell",
+                        "type": "abilityDc"
+                      },
+                      {
+                        "attributes": [
+                          "int"
+                        ],
+                        "name": "Spell",
+                        "type": "abilityAttackMod"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Psi-strike",
+                "type": "entries",
+                "entries": [
+                  "At 7th level, you learn to concentrate your psionic energy into a single, powerful strike.",
+                  "As a bonus action, you can spend an amount of psionic power up to your psionic power limit in order to add extra psychic damage equal to two times the amount of psionic power spent to your next weapon attack that hits. This bonus is wasted if you don't use it before the end of your turn."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Ardent Inevitability",
+                "type": "entries",
+                "entries": [
+                  "At 3rd level, your dedication towards embracing an inevitable facet o the universe begins to manifest as psionic power. You embrace two o the options listed under \"Ardent Inevitabilities\" below. You embrac another option at 10th and 18th level in this class.",
+                  "Your first choice of ardent inevitability becomes your focus. Whil you are focused on an inevitability, you have the benefits listed unde that option. You can only focus on one inevitability at a time, and yo can change your focus to another inevitability option that you kno when you finish a long rest.",
+                  {
+                    "name": "Ardent Inevitabilities",
+                    "type": "entries",
+                    "entries": [
+                      "The inevitabilities are listed in alphabetical order.",
+                      "<b><i>Conflict and Justice.</i></b> You can deal extra damage equal to your Intelligence modifier when you score a critical hit, and when you are hit with a melee attack, your attacker takes psychic damage equal to your Intelligence modifier.",
+                      "<b><i>Creation and Destruction.</i></b> You can add your Intelligence modifie to the total amount healed whenever you roll a hit die during a shor rest, and your weapon attacks deal maximum damage against objects rather than rolling.",
+                      "<b><i>Death and Life.</i></b> You can add your Intelligence modifier to you death saving throws, and you have advantage on Wisdom (Medicine checks to stabilize others.",
+                      "<b><i>Fate and Freedom.</i></b> When you finish a long rest, roll a d20 an record the result (you can't have more than one result recorded at  time.) When you roll initiative, you can choose to replace the d20 resul with the recorded number. Also, you have advantage on Strength an Dexterity checks made to escape effects that grapple or restrain you.",
+                      "<b><i>Light and Darkness.</i></b> You gain darkvision to a distance of 60 feet. I you already have darkvision, its range increases by 30 feet instead.",
+                      "<b><i>Law and Chaos.</i></b> You have advantage on saving throws agains being charmed or frightened."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Bastille of Emotion",
+                "type": "entries",
+                "entries": [
+                  "At 15th level, you have developed such a strong connection with the philosophies of the universe that you can touch the emotions of those around you.",
+                  "As an action, you open your senses to read the emotional state of all creatures within 60 feet of you. You learn the basic emotional states of each creature within range that you can see - these can be states such as happy, sad, excited, distressed, brave, fearful, loved, hated, angry, or calm, for example.",
+                  "When you use this action, you can also force one affected creature to make a Wisdom saving throw against your spell save DC. On a failed save, you can change that creature's basic emotional state. When you do, you can cause it to stop feeling one of its current emotions of your choice and to start feeling another one of your choice. The creature is not aware that you attempted to manipulate its emotions in this way. A creature that succeeds its saving throw becomes immune to this effect for 1 hour."
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "class": "Monk",
+      "name": "Way of the Lurker",
+      "shortName": "Lurker",
+      "source": "devikyn:RenewedPsionic",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Way of the Lurker",
+            "type": "entries",
+            "entries": [
+              "Monks of the way of the lurker, also known as lurks, combine thei spiritual abilities with their innate psionic talents. Due to th exceptional level of control lurks enact over themselves, these monk most often display an unearthly serenity. Their talents lend well t becoming assassins or envoys, as they are exceptionally suited t thwarting both magic and psionics alike. However, lurks usually have  strong moral code; as such, while their abilities are exceptionall desirable, their services may be hard sought as they will generally onl fight for a cause they believe is right.",
+              {
+                "name": "Lurk Augment",
+                "type": "entries",
+                "entries": [
+                  "When you choose this tradition at 3rd level, you combine psionics an ki to draw energy from others, sapping their abilities and wracking thei bodies with pain.",
+                  "You gain one augmentation from the list of Lurk Augmentation below, which are methods of producing psionics-laden ki abilities. Yo gain one more as you gain levels in this class: 6th level, 11th level, an 17th level. Some augmentations require you to reach a certain leve before you can learn them. If an augmentation lists a level as  prerequisite, it refers to your level in this class.",
+                  "Whenever you gain a new augmentation, you can also replace on augmentation you know with another one. You must meet th prerequisites, if any, for your new choice.",
+                  {
+                    "name": "Lurk Augmentations",
+                    "type": "entries",
+                    "entries": [
+                      "The augmentations are listed in alphabetical order.",
+                      "<b><i>Deceptive Strike (11th Level)</i></b>. When you make a melee weapon attack with advantage, you can reroll each of the damage dice for the attack once and use the new roll. Additionally, you can spend 2 ki points when you attack a creature to treat the target's AC as though it were 10 + its Dexterity modifier for that attack. You must do so before making the attack roll.",
+                      "<b><i>Ghostly Touch (6th Level)</i></b>. Your unarmed strikes ignore half and three-quarters cover. Additionally, you can spend 1 ki point when you make an unarmed strike to increase your reach by 5 feet and ignore full cover for that attack.",
+                      "<b><i>Mental Assault (11th Level)</i></b>. When a creature fails its saving throw for your stunning strike, it takes psychic damage equal to your Wisdom modifier. Additionally, you can spend 2 ki points when you hit a creature with a weapon attack to waste one of the target's spell slots of the lowest level available (if it has spell slots) and waste 3 points of its psionic power (if it is psionic).",
+                      "<b><i>Psionic Thrust</i></b>. You can choose to deal piercing damage with your unarmed strikes, instead of bludgeoning damage. Additionally, when you hit with a melee weapon attack, you can spend a number ki points no greater than half your monk level (rounded up) to cause the attack to deal 1d10 extra psychic damage for every ki point spent.",
+                      "<b><i>Solid Strike (6th Level)</i></b>. Your unarmed strikes ignore resistance to bludgeoning, piercing and slashing damage. Additionally, you can spend 1 ki point when you use your Flurry of Blows to gain a +1 bonus to your attack and damage rolls with your unarmed strikes until the end of your turn.",
+                      "<b><i>Synaptic Disconnect (17th Level)</i></b>. When you score a critical hit with a melee weapon attack against a creature, that creature's speed is halved and it can't take reactions until the start of your next turn. If you also spend 2 ki points, the target can take its action or bonus action, not both, until the start of your next turn.",
+                      "<b><i>Unhinging Strike</i></b>. When you take the Attack action - attacking only one creature with the entire action - and you hit at least once, that creature can't concentrate until the end of your next turn. You can also spend 1 ki point when you force a creature to make concentration check; if you do, the creature makes its check with disadvantage."
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Supernatural Sense",
+                "type": "entries",
+                "entries": [
+                  "Also at 3rd level, your senses are keen to the use of magic and psionics, allowing you to detect their use at a moment's notice.",
+                  "You know whenever a spell is cast within 120 feet of you. This feature doesn't reveal any other information about the spell."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Precognitive Focus",
+                "type": "entries",
+                "entries": [
+                  "At 6th level, whenever you roll initiative, you can add your Wisdom modifier to the result. Additionally, the first attack roll made against you during each combat is rolled with disadvantage."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Flow Interruption",
+                "type": "entries",
+                "entries": [
+                  "At 11th level, your strikes cut off the flow of both magic and psionics in your target. Once per turn when you hit with a melee weapon attack, you can spend 3 ki points to choose one spell affecting the target. Make a Wisdom check (DC 10 + spell's level); on a successful check, the spell ends."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Stygian Shock",
+                "type": "entries",
+                "entries": [
+                  "At 17th level, your strikes temporarily banish your foes, shredding their essence as your ki rips them apart from within.",
+                  "You can use your bonus action and expend 3 ki points to choose one of the creatures you hit with a melee weapon attack this turn. That creature must succeed on a Charisma saving throw or take 4d10 force damage and be banished to the border ethereal for 1 minute. While banished in this way, a creature takes 2d10 force damage at the start of each of its turns.",
+                  "An affected creature can repeat the saving throw at the end of each of its turns, returning to the location that it departed from on a successful save."
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "class": "Barbarian",
+      "name": "Path of the Psychic Warrior",
+      "shortName": "Psychic Warrior",
+      "source": "devikyn:RenewedPsionic",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Path of the Psychic Warrior",
+            "type": "entries",
+            "entries": [
+              "Psychic warriors are naturally talented psionic barbarians who forego any mental training in favor of letting their psionics run wild. These warriors are as unpredictable as they are powerful, for even with a low level of mastery, they can channel limited, but powerful effects while simultaneously posing great physical threat.",
+              {
+                "name": "Unrefined Psionics",
+                "type": "entries",
+                "entries": [
+                  "At 3rd level, your latent psionic abilities begin to express themselves in unrefined ways, becoming particularly volatile while you rage.",
+                  "You know two talents of your choice from the psion spell list. You learn one additional psion talent of your choice at 10th level. Your spellcasting ability for these talents is Constitution.",
+                  "While you are raging, you can cast a psionic talent as a bonus action. If you use this feature to cast a talent that deals damage, you take half the damage dealt by the talent; otherwise, you take psychic damage equal to half your barbarian level.",
+                  {
+                    "attributes": [
+                      "con"
+                    ],
+                    "name": "Unrefined Psionics",
+                    "type": "abilityDc"
+                  },
+                  {
+                    "attributes": [
+                      "con"
+                    ],
+                    "name": "Unrefined Psionics",
+                    "type": "abilityAttackMod"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Raging Mindstorm",
+                "type": "entries",
+                "entries": [
+                  "At 6th level, you unleash wild psionic energy while raging, which rotates around you like frenzied blades.",
+                  "While raging, ranged attacks against you have disadvantage, and any creature that touches you takes psychic damage equal to your Constitution modifier."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Seeds of Rage",
+                "type": "entries",
+                "entries": [
+                  "At 10th level, you can convert your rage into a mental wave that draws rage out of others and inhibits their ability to focus.",
+                  "As an action while you're raging, you can end your rage early to force any amount of creatures of your choice within 30 feet of you to make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Constitution modifier). On a failed save, an affected creature takes 4d8 psychic damage, and it can't concentrate on spells or other effects for 1 minute, as a growing rage inhibits its ability to focus.",
+                  "Once you've used this feature, you can't use it again until you finish a long rest.",
+                  {
+                    "attributes": [
+                      "con"
+                    ],
+                    "name": "Seeds of Rage",
+                    "type": "abilityDc"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Metabolic Instability",
+                "type": "entries",
+                "entries": [
+                  "At 14th level, your unstable psionic ability has grown to a point where it affects your physical form.",
+                  "When you start raging, roll a d4 and consult the table below. You gain the effects of the spell for the number you rolled until your rage ends. Your spellcasting ability is Constitution when it is required for these spells.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "d4 Result",
+                      "Spell"
+                    ],
+                    "colStyles": [
+                      "col-4",
+                      "col-8"
+                    ],
+                    "rows": [
+                      [
+                        "1",
+                        "{@spell iron durability|devikyn:RenewedPsionic}"
+                      ],
+                      [
+                        "2",
+                        "{@spell giant limbs|devikyn:RenewedPsionic}"
+                      ],
+                      [
+                        "3",
+                        "{@spell corrosive metabolism|devikyn:RenewedPsionic}"
+                      ],
+                      [
+                        "4",
+                        "{@spell bestial transformation|devikyn:RenewedPsionic}"
+                      ]
+                    ]
+                  },
+                  {
+                    "attributes": [
+                      "con"
+                    ],
+                    "name": "Metabolic Instability",
+                    "type": "abilityDc"
+                  },
+                  {
+                    "attributes": [
+                      "con"
+                    ],
+                    "name": "Metabolic Instability",
+                    "type": "abilityAttackMod"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "class": "Ranger",
+      "name": "Mindstalker",
+      "shortName": "Mindstalker",
+      "source": "devikyn:RenewedPsionic",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Mindstalker",
+            "type": "entries",
+            "entries": [
+              "Never faltering in their task, the mindstalker is a fierce hunter of psionic aberrations. Armed with the same psionic ability that many of these aberrations use to take advantage of their prey, these rangers relentlessly seek their targets, turning a careless predator into unsuspecting quarry. Those wary enough to know of a mindstalker's existence and skill set wisely respect them, and often fear them.",
+              {
+                "name": "Mindstalker Magic",
+                "type": "entries",
+                "entries": [
+                  "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Mindstalker Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+                  {
+                    "type": "table",
+                    "caption": "Mindstalker Spells",
+                    "colLabels": [
+                      "Ranger Level",
+                      "Spell"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "3rd",
+                        "{@spell command|PHB}"
+                      ],
+                      [
+                        "5th",
+                        "{@spell mind spike|XGE}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell sending}"
+                      ],
+                      [
+                        "13th",
+                        "{@spell confusion}"
+                      ],
+                      [
+                        "17th",
+                        "{@spell geas}"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ego Piercer",
+                "type": "entries",
+                "entries": [
+                  "At 3rd level, you can imbue your strikes with psionic energy that seeps through wounds and strikes at the mind.",
+                  "You can use your bonus action to cause your next weapon attack that hits before the end of the turn to deal an extra 1d8 psychic damage. If a creature capable of telepathy takes this damage, it must succeed on a Wisdom saving throw against your spell save DC or be frightened of you until the start of your next turn."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Lucid Buffer",
+                "type": "entries",
+                "entries": [
+                  "At 7th level, your consciousness is firmly rooted, making it difficult to control you. You have advantage on saving throws against being charmed, frightened, and stunned."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Cerebral Blind",
+                "type": "entries",
+                "entries": [
+                  "At 11th level, you slip into the blind spot of minds attempting to divine you, becoming an undetectable presence.",
+                  "When any spell or other effect attempts to divine information about you or your location - such as the {@spell arcane eye|PHB}, {@spell locate creature|PHB}, {@spell scrying|PHB}, {@spell view aura|devikyn:RenewedPsionic}, or {@spell unwavering eye|devikyn:RenewedPsionic} spells - the attempt fails if you are the target, and you are invisible to sensors created by these effects."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Blast Feedback",
+                "type": "entries",
+                "entries": [
+                  "At 15th level, afflictions of the mind have little effect on you, and you can even turn certain effects back onto your attackers.",
+                  "You have resistance to psychic damage, and whenever a creature forces you to make an Intelligence saving throw, you can partially reflect the assault, forcing the originating creature to also make the saving throw or suffer the same effects it is attempting to inflict upon you."
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "class": "Rogue",
+      "name": "Soulknife",
+      "shortName": "Soulknife",
+      "source": "devikyn:RenewedPsionic",
+      "subclassFeatures": [
+        [
+          "Armed with a mind as sharp as it is deadly, the soulknife is a violent force of psionic lethality. These psionic rogues craft beautiful blades from their mental energy, preferring to hone their natural abilities into a sharp, killing edge, rather than study the inner workings of the universe. A soulknife takes great pride in the design and perfection of their psionic weaponry, often crafting a personal, signature aesthetic into any weapons they create.",
+          {
+            "name": "Soulknife",
+            "type": "entries",
+            "entries": [
+              {
+                "name": "Mind Blade",
+                "type": "entries",
+                "entries": [
+                  "At 3rd level, you can create a semisolid blade of psychic energy, distilled from your mind.",
+                  "As a bonus action, you you can create a weapon that flows with mental energy, a mind blade, in one of your free hands. This weapon takes the form of a dagger, a longsword, a rapier or a shortsword (your choice), using the same statistics as the chosen weapon except that it has the finesse and thrown (30/120) properties. You can never be disarmed of your mind blade unless you choose to be, and it functions even in a {@spell nullify psionics|devikyn:RenewedPsionic|null psionics} field. If you let go of your mind blade, it disappears at the end of the turn.",
+                  "When you Sneak Attack a creature with your mind blade, you can choose to deal psychic damage with the Sneak Attack. Your mind blade gains a +1 bonus to its attack and damage rolls at 9th level in this class, and this bonus becomes a +2 at 17th level."
+                ]
+              },
+              {
+                "name": "Innate Spellcasting",
+                "type": "entries",
+                "entries": [
+                  "Also at 3rd level, your psionic power, honed by your focus on perfecting your psionic weaponry, allows you to learn certain psionic spells.",
+                  {
+                    "name": "Psionics",
+                    "type": "entries",
+                    "entries": [
+                      "You use a method of spellcasting known as psionics, which harnesses your mental energy to warp reality into wondrous effects. Due to the nature of psionics, you ignore the components of any psion spells you have prepared, except material components that are consumed by the spell. Spells cast using psionics are unaffected by effects that negate magic, such as {@spell counterspell|PHB}, {@spell dispel magic|PHB}, and {@spell anti-magic field|PHB}."
+                    ]
+                  },
+                  {
+                    "type": "table",
+                    "caption": "Soulknife Psionics",
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-2 text-center",
+                      "col-2 text-center",
+                      "col-2 text-center",
+                      "col-3 text-center"
+                    ],
+                    "colLabels": [
+                      "Rogue Level",
+                      "Talents Known",
+                      "Spells Known",
+                      "Psionic Power",
+                      "Psionic Power Limit"
+                    ],
+                    "rows": [
+                      [
+                        "3rd",
+                        "3",
+                        "3",
+                        "2",
+                        "1"
+                      ],
+                      [
+                        "4th",
+                        "3",
+                        "4",
+                        "3",
+                        "1"
+                      ],
+                      [
+                        "5th",
+                        "3",
+                        "4",
+                        "3",
+                        "1"
+                      ],
+                      [
+                        "6th",
+                        "3",
+                        "4",
+                        "3",
+                        "1"
+                      ],
+                      [
+                        "7th",
+                        "3",
+                        "5",
+                        "8",
+                        "2"
+                      ],
+                      [
+                        "8th",
+                        "3",
+                        "6",
+                        "8",
+                        "2"
+                      ],
+                      [
+                        "9th",
+                        "3",
+                        "6",
+                        "8",
+                        "2"
+                      ],
+                      [
+                        "10th",
+                        "4",
+                        "7",
+                        "10",
+                        "2"
+                      ],
+                      [
+                        "11th",
+                        "4",
+                        "8",
+                        "10",
+                        "2"
+                      ],
+                      [
+                        "12th",
+                        "4",
+                        "8",
+                        "10",
+                        "2"
+                      ],
+                      [
+                        "13th",
+                        "4",
+                        "9",
+                        "16",
+                        "3"
+                      ],
+                      [
+                        "14th",
+                        "4",
+                        "10",
+                        "16",
+                        "3"
+                      ],
+                      [
+                        "15th",
+                        "4",
+                        "10",
+                        "16",
+                        "3"
+                      ],
+                      [
+                        "16th",
+                        "4",
+                        "11",
+                        "19",
+                        "3"
+                      ],
+                      [
+                        "17th",
+                        "4",
+                        "11",
+                        "19",
+                        "3"
+                      ],
+                      [
+                        "18th",
+                        "4",
+                        "11",
+                        "19",
+                        "3"
+                      ],
+                      [
+                        "19th",
+                        "4",
+                        "12",
+                        "23",
+                        "4"
+                      ],
+                      [
+                        "20th",
+                        "4",
+                        "13",
+                        "23",
+                        "4"
+                      ]
+                    ]
+                  },
+                  {
+                    "name": "Psionic Talents",
+                    "type": "entries",
+                    "entries": [
+                      "You learn three talents of your choice from the psion spell list. You learn another psion talent of your choice at 10th level in this class."
+                    ]
+                  },
+                  {
+                    "name": "Learning Spells",
+                    "type": "entries",
+                    "entries": [
+                      "You know two psion spells of your choice, and one nomad spell of your choice. The Soulknife Innate Spellcasting table shows when you learn more spells of 1st level or higher. Each spell must be chosen from the psion spell list, and must be of a level no greater than the number shown in the Psionic Power Limit column for your rogue level.",
+                      "At 8th, 14th, and 20th levels in this class, the spells you choose can come from the nomad spell list.",
+                      "Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice. The new spell must be of a level no greater than the number shown in the Psionic Power Limit column for your rogue level, and it must be a psion spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from the nomad spell list."
+                    ]
+                  },
+                  {
+                    "name": "Psionic Power",
+                    "type": "entries",
+                    "entries": [
+                      "The Soulknife Innate Spellcasting table shows how much psionic power you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend psionic power equal to the spell's level when you cast it. You regain all expended psionic power when you finish a long rest.",
+                      "For example, if you are a level 8 rogue and you know the 1st-level spell magic missile, you can spend 1 psionic power to cast it at 1st level or 2 psionic power to cast it at 2nd level. There is a limit to the amount of psionic power you can sustain at a time; you can't cast a spell if its psionic power cost is greater than your Psionic Power Limit."
+                    ]
+                  },
+                  {
+                    "name": "Spellcasting Ability",
+                    "type": "entries",
+                    "entries": [
+                      "Intelligence is your ability for your psionic spells, since they are created out of psionic energy and shaped by your mind. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a psionic spell you cast and when making an attack roll with one.",
+                      {
+                        "attributes": [
+                          "int"
+                        ],
+                        "name": "Spell",
+                        "type": "abilityDc"
+                      },
+                      {
+                        "attributes": [
+                          "int"
+                        ],
+                        "name": "Spell",
+                        "type": "abilityAttackMod"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Speed of Thought",
+                "type": "entries",
+                "entries": [
+                  "At 9th level, your sharp focus hastens your body's responses and heightens your mental acuity. Your speed increases by 10 feet, and you have advantage on ability checks to recall information you've learned."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Bladewind",
+                "type": "entries",
+                "entries": [
+                  "Starting at 13th level, you can fragment your mind blade into multiple smaller weapons, each striking at a creature near you.",
+                  "As an action while you're wielding your mind blade, you can split the blade into multiple weapons, using them to make a melee psionic attack against each creature within 5 feet of you. On a hit, a creature takes 1d6 psychic damage, and you can add an extra number of d6s to the damage; each d6 you add in this way subtracts from your total Sneak Attack damage, and you can distribute these d6s among each of the creatures you hit until you've spent the total number of d6s you have for your Sneak Attack."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Knife to the Soul",
+                "type": "entries",
+                "entries": [
+                  "Starting at 17th level, when you Sneak Attack a creature with your mind blade, you can choose to forego any number of d6s from your Sneak Attack's damage in order to deal Intelligence, Wisdom, or Charisma damage to the creature (your choice). The target must succeed on a Constitution saving throw or have the chosen ability score reduced by 1 for each d6 you forfeited, which lasts until the creature finishes a long rest.",
+                  "This feature can't reduce a creature's ability scores by more than the total number of d6s you have for your Sneak Attack."
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "class": "Sorcerer",
+      "name": "Wilder",
+      "shortName": "Wilder",
+      "source": "devikyn:RenewedPsionic",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Wildera",
+            "type": "entries",
+            "entries": [
+              "A stark contrast to the psion, the wilder draws upon raw emotion to fuel both psionic and magical abilities. These unique creatures command a mixture of powerful abilities, often in an overwhelming and confusing capacity. As such, wilders can glimpse power far beyond their normal means, if only for a brief moment, and at perilous risk. Wilders seek adventure, as it is an opportunity for them to hone their emotion-shaped powers, as well as to put their skills to the test. For a wilder, every surge of emotion is both a euphoria and an epiphany.",
+              {
+                "name": "Variant: Wilder Origin Spells",
+                "type": "inset",
+                "entries": [
+                  "You learn an additional spell when you reach certain levels in this class. These spells count as a sorcerer spells for you, but don't count against the number of sorcerer spells you know.",
+                  {
+                    "type": "table",
+                    "colLabels": [
+                      "Sorcerer Level",
+                      "Spell"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "1st",
+                        "{@spell heroism|PHB}"
+                      ],
+                      [
+                        "3rd",
+                        "{@spell calm emotions|PHB}"
+                      ],
+                      [
+                        "5th",
+                        "{@spell enemies abound|XGE}"
+                      ],
+                      [
+                        "7th",
+                        "{@spell compulsion|PHB}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell dream|PHB}"
+                      ],
+                      [
+                        "11th",
+                        "{@spell otto's irresistable dance|PHB}"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Natural Kinship",
+                "type": "entries",
+                "entries": [
+                  "At 1st level, psionic energy naturally flows out of you, subtly influencing the behavior of others you meet.",
+                  "If you are within 10 feet of a creature when you speak to it for the first time, that creature feels an implacable bond of kinship with you. This bond makes the creature treat you as a friend, rather than an acquaintance. The GM decides the extent of this benefit, and while it typically doesn't mean the creature will afford you special favors, it becomes easier for you to befriend the creature. This feature has no effect on a creature that is already hostile to you before you meet it."
+                ]
+              },
+              {
+                "name": "Wilder Psionics",
+                "type": "entries",
+                "entries": [
+                  "Also at 1st level, you can choose from the telepath spell list, in addition to the sorcerer spell list, when you learn a new sorcerer spell. Spells you learn in this way count as sorcerer spells for you, and you don't need to provide verbal and somatic components when you cast them."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Emotion Surge",
+                "type": "entries",
+                "entries": [
+                  "At 6th level, embracing a heightened emotional state allows your spells to flare with additional power.",
+                  "When you cast a sorcerer spell of 1st level or higher, you can spend any number of sorcery points to surge with emotion, empowering the spell. If you do, the spell's level increases by the same number of levels as the amount of sorcery points you spent, up to the maximum level spell slot available for your sorcerer level. After augmenting a spell in this way, you must succeed on a Constitution saving throw (DC 8 + the spell's level) or be stunned until the start of your next turn."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Elusive Intuition",
+                "type": "entries",
+                "entries": [
+                  "At 14th level, your emotional surges enhance your intuition, turning the emotional state of others into a clear indicator of their actions.",
+                  "After you use your Emotion Surge, attacks against you have disadvantage until the end of your next turn, as long as you can see the attacker."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "name": "Surging Euphoria",
+                "type": "entries",
+                "entries": [
+                  "At 18th level, your surges of emotion trigger a euphoric state within you, boosting your endurance and your spells.",
+                  "When you use your Emotion Surge, you can spend 3 additional sorcery points to gain the following benefits for 1 minute:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "You have a +2 bonus to your spell attack rolls and your damage rolls for spell attacks, and your spell save DC increases by 2.",
+                      "You gain temporary hit points equal to twice your sorcerer level, which disappear after 1 minute."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ]
 }
