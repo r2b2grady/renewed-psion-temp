@@ -65,12 +65,12 @@
               "name": "Multiclassing",
               "type": "entries",
               "entries": [
-                "Multiclassing allows you to gain levels in multiple classes. Doing so lets you mix the abilities of those classes to realize a character concept that might not be reflected in one of the standard class options. Refer to page 163 of the <i>Player's Handbook</i> for the full details of Multiclassing."
+                "Multiclassing allows you to gain levels in multiple classes. Doing so lets you mix the abilities of those classes to realize a character concept that might not be reflected in one of the standard class options. Refer to page 163 of the <i>Player's Handbook</i> for the full details of Multiclassing.",
                 {
                   "type": "entries",
                   "name": "Prerequisites",
                   "entries": [
-                    "To qualify for a new class, you must meet the ability score prerequisites for both your current class and your new one, as shown in the Multiclassing Prerequisites table. The Psion is added to this table."
+                    "To qualify for a new class, you must meet the ability score prerequisites for both your current class and your new one, as shown in the Multiclassing Prerequisites table. The Psion is added to this table.",
                     {
                       "type": "table",
                       "caption": "Multiclassing Proficiencies",
@@ -89,7 +89,7 @@
                         ]
                       ]
                     }
-                  ],
+                  ]
                 },
                 {
                   "name": "Proficiencies",
@@ -2125,7 +2125,7 @@
                     "type": "entries",
                     "entries": [
                       "The Ardent Innate Spellcasting table shows how much psionic power you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend psionic power equal to the spell's level when you cast it. You regain all expended psionic power when you finish a long rest.",
-                      "For example, if you are a level 8 fighter and you know the 1st-level spell {@spell magic missile|PHB}, you can spend 1 psionic power to cast it at 1st level or 2 psionic power to cast it at 2nd level. There is a limit to the amount of psionic power you can sustain at a time; you can't cast a spell if its psionic power cost is greater than your Psionic Power Limit.",
+                      "For example, if you are a level 8 fighter and you know the 1st-level spell {@spell magic missile|PHB}, you can spend 1 psionic power to cast it at 1st level or 2 psionic power to cast it at 2nd level. There is a limit to the amount of psionic power you can sustain at a time; you can't cast a spell if its psionic power cost is greater than your Psionic Power Limit."
                     ]
                   },
                   {
@@ -2532,7 +2532,7 @@
                 "name": "Blast Feedback",
                 "type": "entries",
                 "entries": [
-                  "At 15th level, afflictions of the mind have little effect on you, and you can even turn certain effects back onto your attackers."
+                  "At 15th level, afflictions of the mind have little effect on you, and you can even turn certain effects back onto your attackers.",
                   "You have resistance to psychic damage, and whenever a creature forces you to make an Intelligence saving throw, you can partially reflect the assault, forcing the originating creature to also make the saving throw or suffer the same effects it is attempting to inflict upon you."
                 ]
               }
@@ -2868,7 +2868,7 @@
                     ]
                   }
                 ]
-              }
+              },
               {
                 "name": "Natural Kinship",
                 "type": "entries",
@@ -3325,7 +3325,7 @@
         "Choose one creature you can see within range. The target must make a Wisdom saving throw. On a failed save, it takes 1d6 psychic damage and can’t willingly move closer to you for the duration unless it succeeds on a Wisdom saving throw. A creature can only be forced to make this saving throw once per turn.",
         "The talent’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
         "<b><i>Focus.</i></b> If you focus when you cast this spell, you must concentrate on it, and the spell lasts for up to 1 minute.",
-"If you also expend 1-5 psionic power when you cast the spell, if the target fails its saving throw, it must roll a d4 each time it makes an ability check or saving throw and subtract the result from its total for the duration, and you can select one additional target for the spell for each point spent."
+        "If you also expend 1-5 psionic power when you cast the spell, if the target fails its saving throw, it must roll a d4 each time it makes an ability check or saving throw and subtract the result from its total for the duration, and you can select one additional target for the spell for each point spent."
       ],
       "page": 25,
       "damageInflict": [
